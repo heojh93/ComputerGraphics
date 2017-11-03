@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/p31.dir/practice3_1.cpp.o  -o p31  -framework CoreFoundation -framework IOKit -framework Cocoa -framework OpenGL /opt/local/lib/libglfw.dylib -framework GLUT /opt/local/lib/libfreeimage.dylib 
