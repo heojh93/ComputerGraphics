@@ -1,8 +1,0 @@
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/edit_cache.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/rebuild_cache.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/snake.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/p33.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/p32s.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/p32.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/p34.dir
-/Users/heoju/ComputerGraphics/practice/CMakeFiles/p31.dir
