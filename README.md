@@ -3,10 +3,10 @@
 
 1. Solar System
 
-![Alt Text](https://github.com/heojh93/ComputerGraphics/Moving_Cow/cow.gif)
+![Alt Text](https://github.com/heojh93/ComputerGraphics/blob/master/Moving_Cow/cow.gif)
 
 2. Moving Cow
 
-![Alt Text](https://github.com/heojh93/ComputerGraphics/Solar/solar.gif)
+![Alt Text](https://github.com/heojh93/ComputerGraphics/blob/master/Solar/solar.gif)
 
 need to install `freeglut`, `freeimage`, `glfw` to execute. 
