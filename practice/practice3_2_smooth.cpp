@@ -1,6 +1,11 @@
 #include <GL/freeglut.h>
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#else
 #include <GL/glu.h>
 #include <GL/gl.h>
+#endif
 
 static int Day = 0, Time = 0;
 

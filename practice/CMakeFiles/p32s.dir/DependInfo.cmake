@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/practice3-2/practice3_2_smooth.cpp" "/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/practice3-2/CMakeFiles/p32s.dir/practice3_2_smooth.cpp.o"
+  "/Users/heoju/ComputerGraphics/practice/practice3_2_smooth.cpp" "/Users/heoju/ComputerGraphics/practice/CMakeFiles/p32s.dir/practice3_2_smooth.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/local/include"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

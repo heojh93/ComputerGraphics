@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 project(OgreFltk)
 if(APPLE)
 	# sudo port install glfw freeglut
-	include_directories("/opt/local/include")
+	include_directories("/usr/local/include")
 endif()
 if(UNIX)
 	set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -D_DEBUG -Wall")
@@ -39,10 +39,10 @@ if(UNIX)
 			/System/Library/Frameworks/IOKit.framework
 			/System/Library/Frameworks/Cocoa.framework
 			/System/Library/Frameworks/OpenGL.framework
-			/opt/local/lib/libglfw.dylib
+			/usr/local/lib/libglfw.dylib
 			#/opt/local/lib/libglut.dylib
 			/System/Library/Frameworks/GLUT.framework
-			/opt/local/lib/libfreeimage.dylib
+			/usr/local/lib/libfreeimage.dylib
 			)
 	else()
 	target_link_libraries(OgreFltk 

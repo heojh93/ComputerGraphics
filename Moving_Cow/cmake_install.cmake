@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton
+# Install script for directory: /Users/heoju/ComputerGraphics/Moving_Cow
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/heoju/ComputerGraphics/Moving_Cow/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

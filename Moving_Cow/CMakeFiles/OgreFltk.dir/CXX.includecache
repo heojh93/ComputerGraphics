@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/SimpleScene.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/SimpleScene.cpp
 iostream
 -
 fstream
@@ -19,6 +19,10 @@ sys/types.h
 -
 Windows.h
 -
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
 GL/gl.h
 -
 GL/glu.h
@@ -26,17 +30,17 @@ GL/glu.h
 GLFW/glfw3.h
 -
 math/matrix4.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/matrix4.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/matrix4.h
 math/vector3.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 math/intersectionTest.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/intersectionTest.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/intersectionTest.h
 WaveFrontOBJ.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/WaveFrontOBJ.h
+/Users/heoju/ComputerGraphics/Moving_Cow/WaveFrontOBJ.h
 assert.h
 -
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/WaveFrontOBJ.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/WaveFrontOBJ.cpp
 iostream
 -
 cstring
@@ -47,14 +51,18 @@ sys/types.h
 -
 Windows.h
 -
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
 GL/gl.h
 -
 GL/glu.h
 -
 WaveFrontOBJ.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/WaveFrontOBJ.h
+/Users/heoju/ComputerGraphics/Moving_Cow/WaveFrontOBJ.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/WaveFrontOBJ.h
+/Users/heoju/ComputerGraphics/Moving_Cow/WaveFrontOBJ.h
 vector
 -
 stdlib.h
@@ -62,35 +70,35 @@ stdlib.h
 math.h
 -
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/intersectionTest.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/math/intersectionTest.cpp
 mathclass.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 intersectionTest.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/intersectionTest.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/intersectionTest.h
 interval.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/interval.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/interval.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/intersectionTest.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/intersectionTest.h
 vector
 -
 math_macro.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 vector3.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/interval.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/math/interval.cpp
 mathclass.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 interval.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/interval.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/interval.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/interval.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/interval.h
 math_macro.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 stdio.h
 -
 stdlib.h
@@ -108,165 +116,73 @@ limits.h
 float.h
 -
 quater.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/quater.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/quater.h
 vector3.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 matrix4.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/matrix4.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/matrix4.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/matrix4.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/math/matrix4.cpp
 mathclass.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 matrix4.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/matrix4.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/matrix4.h
 math_macro.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 iostream
 -
 Windows.h
 -
+OpenGL/gl.h
+-
 GL/gl.h
 -
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/matrix4.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/matrix4.h
 iostream
 -
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/quater.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/math/quater.cpp
 mathclass.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 quater.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/quater.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/quater.h
 vector3.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 math_macro.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/quater.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/quater.h
 vector3.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.cpp
 mathclass.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 iostream
 -
 vector3.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 quater.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/quater.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/quater.h
 math_macro.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector3.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector3.h
 iostream
 -
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector4.cpp
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector4.cpp
 mathclass.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/mathclass.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/mathclass.h
 vector4.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector4.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector4.h
 math_macro.h
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/math_macro.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/math_macro.h
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/PA2_2017_skeleton/math/vector4.h
+/Users/heoju/ComputerGraphics/Moving_Cow/math/vector4.h
 
-/opt/local/include/GL/gl.h
-gl_mangle.h
-/opt/local/include/GL/gl_mangle.h
-windows.h
--
-GL/glext.h
--
-
-/opt/local/include/GL/gl_mangle.h
-
-/opt/local/include/GL/glcorearb.h
-windows.h
--
-stddef.h
--
-inttypes.h
--
-inttypes.h
--
-inttypes.h
--
-stdint.h
--
-stdint.h
--
-inttypes.h
--
-
-/opt/local/include/GL/glext.h
-windows.h
--
-stddef.h
--
-inttypes.h
--
-inttypes.h
--
-inttypes.h
--
-stdint.h
--
-stdint.h
--
-inttypes.h
--
-stddef.h
--
-
-/opt/local/include/GL/glu.h
-glu_mangle.h
-/opt/local/include/GL/glu_mangle.h
-GL/gl.h
--
-
-/opt/local/include/GL/glu_mangle.h
-
-/opt/local/include/GLES/gl.h
-GLES/glplatform.h
--
-
-/opt/local/include/GLES/glext.h
-
-/opt/local/include/GLES/glplatform.h
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES2/gl2.h
-GLES2/gl2platform.h
--
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES2/gl2ext.h
-
-/opt/local/include/GLES2/gl2platform.h
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES3/gl3.h
-GLES3/gl3platform.h
--
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES3/gl31.h
-GLES3/gl3platform.h
--
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES3/gl3platform.h
-KHR/khrplatform.h
--
-
-/opt/local/include/GLFW/glfw3.h
+/usr/local/include/GLFW/glfw3.h
 stddef.h
 -
 stdint.h

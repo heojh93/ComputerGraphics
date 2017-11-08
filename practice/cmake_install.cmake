@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/practice3-2
+# Install script for directory: /Users/heoju/ComputerGraphics/practice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/practice3-2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/heoju/ComputerGraphics/practice/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

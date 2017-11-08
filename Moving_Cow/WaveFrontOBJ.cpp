@@ -6,8 +6,13 @@
 #ifdef _MSC_VER
 #include <Windows.h>
 #endif
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
+#endif
 using namespace std;
 
 #include "WaveFrontOBJ.h"

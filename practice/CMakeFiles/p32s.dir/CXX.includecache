@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/kimmj/Documents/hyu/ComputerGraphics/HomeWork/ComputerGraphics/practice3-2/practice3_2_smooth.cpp
+/Users/heoju/ComputerGraphics/practice/practice3_2_smooth.cpp
 GL/freeglut.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
 -
 GL/glu.h
 -
 GL/gl.h
 -
 
-/opt/local/include/GL/freeglut.h
+/usr/local/include/GL/freeglut.h
 freeglut_std.h
-/opt/local/include/GL/freeglut_std.h
+/usr/local/include/GL/freeglut_std.h
 freeglut_ext.h
-/opt/local/include/GL/freeglut_ext.h
+/usr/local/include/GL/freeglut_ext.h
 
-/opt/local/include/GL/freeglut_ext.h
+/usr/local/include/GL/freeglut_ext.h
 stdarg.h
 -
 
-/opt/local/include/GL/freeglut_std.h
+/usr/local/include/GL/freeglut_std.h
 windows.h
 -
 EGL/egl.h
@@ -33,66 +37,14 @@ GLES/gl.h
 -
 GLES2/gl2.h
 -
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
 GL/gl.h
 -
 GL/glu.h
 -
 stdlib.h
--
-
-/opt/local/include/GL/gl.h
-gl_mangle.h
-/opt/local/include/GL/gl_mangle.h
-windows.h
--
-GL/glext.h
--
-
-/opt/local/include/GL/gl_mangle.h
-
-/opt/local/include/GL/glext.h
-windows.h
--
-stddef.h
--
-inttypes.h
--
-inttypes.h
--
-inttypes.h
--
-stdint.h
--
-stdint.h
--
-inttypes.h
--
-stddef.h
--
-
-/opt/local/include/GL/glu.h
-glu_mangle.h
-/opt/local/include/GL/glu_mangle.h
-GL/gl.h
--
-
-/opt/local/include/GL/glu_mangle.h
-
-/opt/local/include/GLES/gl.h
-GLES/glplatform.h
--
-
-/opt/local/include/GLES/glplatform.h
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES2/gl2.h
-GLES2/gl2platform.h
--
-KHR/khrplatform.h
--
-
-/opt/local/include/GLES2/gl2platform.h
-KHR/khrplatform.h
 -
 
